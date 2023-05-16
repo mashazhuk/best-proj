@@ -1,0 +1,154 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <title>Delivery</title>
+    <!--        Lora font   -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
+    <!--        Sans pro font   -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+</head>
+<body>
+<header>
+    <img id = "logo" src="/img/logo.png">
+    <ul class = "menu">
+        <li><a href="#">Каталог</a></li>
+        <li><a href="#">Про нас</a></li>
+        <li><a href="#">Збери букет</a></li>
+        <li><a href="#">Контакти</a></li>
+    </ul>
+</header>
+
+<section class = "section1">
+    <div class = "sect1_left">
+        <h1>Букет із кущових троянд "Довгоочікуване щастя"</h1>
+        <p>Ніжний та витончений шик у букеті з троянд - гарний вибір для коханої<br> людини</p>
+        <div class="button_sect1">
+            <button class="butt1">В кошик</button>
+            <button class="butt2">В каталог</button>
+        </div>
+    </div>
+    <div id = "sect1_right">
+        <img src = "/img/bg_web-no-background.png" width="400" height="390">
+    </div>
+</section>
+
+<section class = "section2">
+    <div class="sect2-top">
+        <div class = "sect2_top_bouq">
+            <img src="/img/bouquets.jpg" >
+            <p>Букети</p>
+        </div>
+        <div class = "sect2_top_bouq">
+            <img src="/img/natural_flowers.jpg">
+            <p>Живі квіти</p>
+        </div>
+        <div class = "sect2_top_bouq">
+            <img src="/img/own_bouquet.png">
+            <p>"Свій" букет</p>
+        </div>
+    </div>
+    <div class = "sect2-down">
+        <div class = "sect2_down_left">
+            <h1>Про нас</h1>
+            <p id = "s2-p1">Яких квітів тут лише немає! І садові, і польові, і кімнатні у глиняних горщиках. Очі розбігаються від такого достатку.</p>
+            <p id="s2-p2">Тут представлена і багата колекція кімнатних рослин: кактуси різної форми та величини, ніжні фіалки, усипані квітами, аспарагуси, фікуси.</p>
+        </div>
+        <div class = "sect2_down_right">
+            <img id="abstract-img" src = "/img/abstract_background.png">
+            <img id="women-img" src="/img/women.png">
+        </div>
+    </div>
+</section>
+
+<section class = "section3">
+    <p id="s3-title">Працюємо для вас</p>
+    <div class = "s3">
+        <div id = "s3-1">
+            <img src = "/img/constructor.png">
+            <p>Конструктор унікального букета</p>
+        </div>
+        <div id = "s3-2">
+            <img src = "/img/delivery.png">
+            <p>Безкоштовна доставка по місту до 2-х годин</p>
+        </div>
+        <div id = "s3-3">
+            <img src = "/img/indoor.png">
+            <p>Наявність кімнатних рослин</p>
+        </div>
+        <div id = "s3-4">
+            <img src = "/img/for_loved_ones.png">
+            <p>Вибір квітів для коханих, мам та друзів</p>
+        </div>
+    </div>
+</section>
+
+<section class = "section4">
+    <p id="s4-title">Каталог</p>
+    <div class = "assort">
+    </div>
+</section>
+
+<section class = "section5">
+    <h1 id = "review-label">Відгуки</h1>
+    <div class = "review" id = "rev">
+        <div class = "card" id = "rev-1">
+            <p class = "rev-name">Володимир</p>
+            <p class = "rev-text">“Сам не фахівець з квітів, але дружині дуже сподобався оригінальний весняний букет, зібраний із позитивним настроєм. Залишаю свій позитивний відгук магазину на вул. Добровольчих батальонів.”</p>
+        </div>
+        <div class ="card" id ="rev-2">
+            <p class = "rev-name">Людмила</p>
+            <p class = "rev-text">“Замовляла квіти у неробочий час (увечері), але зі мною дуже оперативно зв'язався співробітник та пообіцяв доставити букет вранці у призначений час. Так і сталося, квіти були доставлені з точністю секунда в секунду, свіжі та красиві. Рекомендую.”</p>
+        </div>
+        <div id = "rev-n"></div>
+    </div>
+
+    <form id="form">
+        <div class = "rev-add">
+            <h2 id = "rev-add-label">Додати відгук:</h2>
+            <input id = "rev-inp-name" name = "review_post_name"  placeholder="Ваше ім'я"></input>
+            <input id = "rev-inp-review" name = "review_post_text" required minlength="3" maxlength="256" placeholder="Ваш відгук"></input>
+            <button class="rev-button" id="submit" type="submit">Відправити</button>
+        </div>
+    </form>
+</section>
+
+<footer>
+    <div id = "col-1">
+        <img src = "/img/logo.png">
+        <p>Copyright Ⓒ 2022</p>
+    </div>
+    <div id = "col-2">
+        <h1>Контакти</h1>
+        <p><a id = "phone_1" href="tel:0950000000">(095)000 00 00</a><br>
+            <a id = "phone_2" href="tel:0970000000">(097)000 00 00</a><br>Ми працюємо цілодобово
+        </p>
+    </div>
+    <div id ="col-3">
+        <h1>Інформація</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Про нас</a></li>
+                <li><a href="#">Кіт продажу</a></li>
+                <li><a href="#">Відгуки</a></li>
+                <li><a href="#">Доставка і оплата</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div id ="col-4">
+        <h1>Каталог</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Збери свій букет</a></li>
+                <li><a href="#">Живі квіти</a></li>
+                <li><a href="#">Кімнатні рослини</a></li>
+            </ul>
+        </nav>
+    </div>
+</footer>
+</body>
+</html>
