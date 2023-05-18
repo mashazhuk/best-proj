@@ -1,4 +1,4 @@
-import "./styles.css"
+
 import {Review} from "./review.js"
 import "./galery.js"
 
