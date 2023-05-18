@@ -7,6 +7,7 @@ const inpName = form.querySelector('#rev-inp-name')
 const inpText = form.querySelector('#rev-inp-review')
 const submitBtn = form.querySelector('#submit')
 
+
 // Работа с отзывами
 window.addEventListener('load', Review.renderList)
 form.addEventListener('submit', submitFormHandler)
