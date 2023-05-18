@@ -1,4 +1,4 @@
-import './styles.css'
+require('./styles.css')
 import {Review} from "./review"
 import "./galery"
 
