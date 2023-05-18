@@ -1,6 +1,6 @@
-require('./styles.css')
-import {Review} from "./review"
-import "./galery"
+<script type="module" src="styles.css"></script>
+<script type="module" src="review.js"></script>
+<script type="module" src="galery.js"></script>
 
 const form = document.getElementById('form')
 const inpName = form.querySelector('#rev-inp-name')
