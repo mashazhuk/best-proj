@@ -1,6 +1,6 @@
 import "./styles.css"
-import {Review} from "./review"
-import "./galery"
+import {Review} from "./review.js"
+import "./galery.js"
 
 const form = document.getElementById('form')
 const inpName = form.querySelector('#rev-inp-name')
